@@ -1,0 +1,60 @@
+.textCenter{
+    text-align: center;
+}
+
+.text1{
+    font-size: $text1;
+}
+
+.text2{
+    font-size: $text2;
+}
+
+.ver:hover{
+    color: blue;
+    font-weight: $fW-600;
+}
+ 
+.sectionDiv1{
+    width: auto;
+    height: auto;
+    padding: 20px 20px 20px 20px;
+    margin: 40px 0px 40px 0px;
+    border: solid $sectionDiv1Color 5px;
+    border-style: dotted;
+}
+
+.sectionDiv2{
+    width: auto;
+    height: auto;
+    padding: 20px 20px 20px 20px;
+    margin: 40px 0px auto 0px;
+    border: solid $sectionDiv2Color 5px;
+    border-style: dashed ;
+}
+
+.flexDiv{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+.flexForm{
+    display: flex;
+    flex-direction: column;
+}
+
+.flexButton{
+    display: flex;
+    justify-content: center;
+}
+
+.pruebaCard{
+    width: 25rem;
+}
+
+.show{
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: 1;
+}
