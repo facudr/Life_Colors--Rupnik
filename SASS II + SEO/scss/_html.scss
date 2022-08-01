@@ -1,0 +1,62 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: #efefef;
+    opacity: 0.9;
+    background-image: linear-gradient(135deg, #fffcfc 25%, transparent 25%), linear-gradient(225deg, #fffcfc 25%, transparent 25%), linear-gradient(45deg, #fffcfc 25%, transparent 25%), linear-gradient(315deg, #fffcfc 25%, #efefef 25%);
+    background-position: 7px 0, 7px 0, 0 0, 0 0;
+    background-size: 14px 14px;
+    background-repeat: repeat;
+}
+
+h1{
+    background:$h1_h2Color;
+    font-family: $fontMain;
+    font-size: $h1Size;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: 1;
+}
+
+@keyframes aparecer{
+    0% {
+    opacity: 0;}
+   100% {opacity: 1;
+   }
+}
+
+.hTransform:hover{
+    transform: translate3d(10px, 10px, 10px);
+}
+
+h2{
+    background:$h1_h2Color;
+    font-family: $fontMain;
+    font-size: $h2Size;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: 1;
+}
+
+h3{
+    background:$h3Color;
+    font-family: $fontMain;
+    font-size: $h3Size;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: 1;
+}
+
+.sectionDiv1 {
+    @include sectionDiv(auto,auto,20px 20px 20px 20px,40px 0px 40px 0px);
+    border: solid $sectionDiv1Color 5px;
+    border-style: dotted;
+}
+
+.sectionDiv2 {
+    @include sectionDiv(auto,auto,20px 20px 20px 20px,40px 0px 40px 0px);
+    border: solid $sectionDiv2Color 5px;
+    border-style: dashed;
+}

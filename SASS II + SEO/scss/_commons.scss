@@ -1,0 +1,46 @@
+.textCenter{
+    text-align: center;
+}
+
+.text1{
+    font-size: $text1;
+}
+
+.text2{
+    font-size: $text2;
+}
+
+.ver:hover{
+    color: blue;
+    font-weight: $fW-600;
+} 
+
+.flex{
+    display: flex;
+}
+
+.flexDiv{
+    @extend .flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+.flexForm{
+    @extend .flex;
+    flex-direction: column;
+}
+
+.flexButton{
+    @extend .flex;
+    justify-content: center;
+}
+
+.pruebaCard{
+    width: 25rem;
+}
+
+.show{
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: 1;
+}

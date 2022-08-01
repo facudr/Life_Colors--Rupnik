@@ -1,0 +1,24 @@
+//colors
+$h1_h2Color:map-get($map:$paleta,$key:'uno');
+$h3Color:map-get($map:$paleta,$key:'dos');
+$navColor:map-get($map:$paleta,$key:'tres');
+$footerColor:map-get($map:$paleta,$key:'cuatro');
+$sectionDiv1Color:map-get($map:$paleta,$key:'cinco');
+$sectionDiv2Color:map-get($map:$paleta,$key:'seis');
+
+//sizing
+$navSize:1.6rem;
+$h1Size:3.3rem;
+$h2Size:2.5rem;
+$h3Size:1.9rem;
+$footerSize:1.6rem;
+$pSize:2rem;
+$text1:2rem;
+$text2:1.6rem;
+
+//weight
+$fW-600:600;
+
+//fonts
+$fontMain: Verdana;
+$fontSec: Calibri;

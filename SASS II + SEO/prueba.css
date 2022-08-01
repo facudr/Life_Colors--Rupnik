@@ -1,0 +1,172 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #efefef;
+  opacity: 0.9;
+  background-image: linear-gradient(135deg, #fffcfc 25%, transparent 25%), linear-gradient(225deg, #fffcfc 25%, transparent 25%), linear-gradient(45deg, #fffcfc 25%, transparent 25%), linear-gradient(315deg, #fffcfc 25%, #efefef 25%);
+  background-position: 7px 0, 7px 0, 0 0, 0 0;
+  background-size: 14px 14px;
+  background-repeat: repeat;
+}
+
+h1 {
+  background: rgba(111, 229, 247, 0.8);
+  font-family: Verdana;
+  font-size: 3.3rem;
+  animation-duration: 2s;
+  animation-name: aparecer;
+  animation-iteration-count: 1;
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.hTransform:hover {
+  transform: translate3d(10px, 10px, 10px);
+}
+
+h2 {
+  background: rgba(111, 229, 247, 0.8);
+  font-family: Verdana;
+  font-size: 2.5rem;
+  animation-duration: 2s;
+  animation-name: aparecer;
+  animation-iteration-count: 1;
+}
+
+h3 {
+  background: rgba(99, 247, 185, 0.8);
+  font-family: Verdana;
+  font-size: 1.9rem;
+  animation-duration: 2s;
+  animation-name: aparecer;
+  animation-iteration-count: 1;
+}
+
+.sectionDiv1 {
+  width: auto;
+  height: auto;
+  padding: 20px 20px 20px 20px;
+  margin: 40px 0px 40px 0px;
+  border: solid rgb(124, 166, 247) 5px;
+  border-style: dotted;
+}
+
+.sectionDiv2 {
+  width: auto;
+  height: auto;
+  padding: 20px 20px 20px 20px;
+  margin: 40px 0px 40px 0px;
+  border: solid rgb(50, 197, 87) 5px;
+  border-style: dashed;
+}
+
+.navIcon {
+  width: 150px;
+}
+
+.navIcon:hover {
+  transform: rotate(-10deg);
+}
+
+nav {
+  background: rgb(253, 187, 45);
+  background: linear-gradient(90deg, rgb(253, 187, 45) 20%, rgb(34, 193, 195) 100%);
+  position: sticky;
+}
+
+.ul-li-a {
+  color: black;
+  text-decoration: underline;
+  font-family: Calibri;
+  font-size: 1.6rem;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.text1 {
+  font-size: 2rem;
+}
+
+.text2 {
+  font-size: 1.6rem;
+}
+
+.ver:hover {
+  color: blue;
+  font-weight: 600;
+}
+
+.flex, .flexButton, .flexForm, .flexDiv {
+  display: flex;
+}
+
+.flexDiv {
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+
+.flexForm {
+  flex-direction: column;
+}
+
+.flexButton {
+  justify-content: center;
+}
+
+.pruebaCard {
+  width: 25rem;
+}
+
+.show {
+  animation-duration: 2s;
+  animation-name: aparecer;
+  animation-iteration-count: 1;
+}
+
+.footer {
+  background-color: rgba(247, 153, 136, 0.9);
+  font-family: Verdana;
+  padding: 10px 20px 15px 20px;
+}
+
+.footerIcon {
+  width: 40px;
+}
+
+.footerIcon:hover {
+  width: 45px;
+}
+
+div ul li {
+  list-style: none;
+  margin-right: 15px;
+  padding-top: 15px;
+}
+div ul li a {
+  color: black;
+  text-decoration: none;
+  font-family: Calibri;
+  font-size: 1.6rem;
+}
+div ul li a:hover {
+  color: black;
+  font-style: underline;
+  font-weight: 600;
+}
+
+.p {
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=prueba.css.map */

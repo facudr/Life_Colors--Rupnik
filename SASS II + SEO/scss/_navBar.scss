@@ -1,0 +1,23 @@
+.navIcon{
+    width: 150px;
+}
+
+.navIcon:hover{
+    transform: rotate(-10deg);
+
+}
+
+nav{
+	background: $navColor;
+    background: linear-gradient(90deg, rgba(253,187,45,1) 20%, rgba(34,193,195,1) 100%);
+    position: sticky;
+}
+
+.ul-li-a{
+    color: black;
+    text-decoration: underline;
+    font-family: $fontSec;
+    font-size: $navSize;
+}
+
+

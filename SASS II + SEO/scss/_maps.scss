@@ -1,0 +1,17 @@
+//map
+$paleta:(
+	'uno':rgba(111, 229, 247,0.8),
+    'dos':rgba(99, 247, 185,0.8),
+    'tres':rgb(253,187,45),
+    'cuatro':rgba(247, 153, 136,0.9),
+    'cinco':rgba(124, 166, 247,1.0),
+    'seis':rgba(50, 197, 87,1.0),);
+
+//mixin
+
+@mixin sectionDiv($width, $height, $padding, $margin){
+	width: $width;
+	height: $height;
+	padding: $padding;
+	margin: $margin;
+}
